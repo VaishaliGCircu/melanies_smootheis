@@ -12,7 +12,7 @@ st.write(
 name_on_order = st.text_input("Name On Smoothie:")
 st.write("The name on your Smoothie will be", name_on_order)
 
-cnx = st.connection("snowflake",account = "KUQDTBH-SXB83112",
+cnx = st.connection("snowflake",account = "MOB99511",
 user = "VAISHALIGAMPAWAR",
 password = "Ngp@1024pue_12",
 role = "SYSADMIN",
